@@ -14,4 +14,5 @@ public class XmlAppContextTest {
         MemberService memberService = ac.getBean("memberService", MemberService.class);
         Assertions.assertThat(memberService).isInstanceOf(memberService.getClass());
     }
+
 }
