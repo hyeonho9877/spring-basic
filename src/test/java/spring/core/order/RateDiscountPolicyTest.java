@@ -2,6 +2,7 @@ package spring.core.order;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import spring.core.discount.RateDiscountPolicy;
 import spring.core.member.Grade;
 import spring.core.member.Member;
 

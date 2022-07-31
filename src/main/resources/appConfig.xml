@@ -14,5 +14,5 @@
         <constructor-arg name="discountPolicy" ref="discountPolicy"/>
     </bean>
 
-    <bean id="discountPolicy" class="spring.core.order.RateDiscountPolicy"/>
+    <bean id="discountPolicy" class="spring.core.discount.RateDiscountPolicy"/>
 </beans>

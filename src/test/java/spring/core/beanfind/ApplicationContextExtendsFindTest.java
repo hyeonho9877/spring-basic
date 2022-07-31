@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import spring.core.discount.DiscountPolicy;
 import spring.core.discount.FixDiscountPolicy;
-import spring.core.order.RateDiscountPolicy;
+import spring.core.discount.RateDiscountPolicy;
 
 import java.util.Map;
 
