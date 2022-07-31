@@ -31,6 +31,8 @@ public class AppConfig {
 
     @Autowired
     MemberRepository memberRepository;
+    @Autowired
+    DiscountPolicy discountPolicy;
 
     @Bean
     public MemberService memberService() {
@@ -47,7 +49,7 @@ public class AppConfig {
     @Bean
     public OrderService orderService() {
         System.out.println("call AppConfig.orderService");
-        return new OrderServiceImpl(memberRepository, discountPolicy());
+        return new OrderServiceImpl(memberRepository, discountPolicy);
     }
 
     @Bean
